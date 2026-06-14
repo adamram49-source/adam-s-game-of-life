@@ -137,7 +137,7 @@
 
             // טעינת מנוע יוניטי 6 אל תוך האתר
             const script = document.createElement("script");
-            script.src = "Build/Build.loader.js"; // ביוניטי 6 זה בדרך כלל השם, ודא שקיים קובץ כזה בתיקיית Build
+            script.src = "GameOfLifeWebsite.loader.js"; // ביוניטי 6 זה בדרך כלל השם, ודא שקיים קובץ כזה בתיקיית Build
             
             script.onload = () => {
                 createUnityInstance(document.getElementById("unity-canvas"), config, (progress) => {
